@@ -6,8 +6,21 @@ authors:
   - family-names: "Renenjie"
     given-names: ""
     email: "2503011022@stu.aynu.edu.cn"
-    # TODO: replace with your full name and ORCID before publishing
+    # TODO: replace with your full name and ORCID. The Zenodo record for v1.0.0
+    # was archived as "Renenjie"; fix it in the Zenodo web interface (metadata
+    # stays editable after publication) and in .zenodo.json for the next version.
 repository-code: "https://github.com/Renenjie/obc-skeleton-graph"
+url: "https://doi.org/10.5281/zenodo.24129382"
+doi: "10.5281/zenodo.24129382"
+date-released: 2026-11-11
+version: "v1.0.0"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24129382"
+    description: "Concept DOI - always resolves to the latest archived version. Use this one when citing."
+  - type: doi
+    value: "10.5281/zenodo.24129383"
+    description: "Version DOI - frozen snapshot of v1.0.0."
 license: MIT
 keywords:
   - oracle bone characters
@@ -56,4 +69,3 @@ references:
     year: 2022
     doi: "10.1371/journal.pone.0272974"
     notes: "Original source of the glyph images, as stated in the GBEDOBC Readme."
-# TODO: fill in date-released once the paper is public

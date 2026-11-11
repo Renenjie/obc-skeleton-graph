@@ -1,5 +1,7 @@
 # **A Circle Stroke-Driven Method for Graph Construction of Oracle Bone Characters**
 
+[![DOI](https://zenodo.org/badge/1453634499.svg)](https://doi.org/10.5281/zenodo.24129382)
+
 Reference implementation and datasets for the paper  
 **"A Circle Stroke-Driven Method for Graph Construction of Oracle Bone Characters"**.
 
@@ -9,6 +11,9 @@ input skeleton images, the ground-truth adjacency matrices, and the figures and
 tables reported in the paper.
 
 > **Status:** code and data accompanying a manuscript under preparation.  
+> Archived on Zenodo as **v1.0.0** — [10.5281/zenodo.24129383](https://doi.org/10.5281/zenodo.24129383)
+> (this version), [10.5281/zenodo.24129382](https://doi.org/10.5281/zenodo.24129382)
+> (all versions).
 > If you find a discrepancy between the code and the paper, please open an issue.
 
 ---
@@ -248,9 +253,37 @@ budget disk space accordingly.
 
 ## 7. Citation
 
-If you use this code, please cite our paper (BibTeX to be added upon
-publication) **and** the dataset publication that provides the images and
-ground-truth graphs:
+### This repository
+
+The archived version is permanently available on Zenodo. Use the **concept DOI**
+below when citing this work in a paper — it always resolves to the most recent
+version:
+
+```bibtex
+@software{renenjie_obc_skeleton_graph,
+  title     = {A Circle Stroke-Driven Method for Graph Construction of
+               Oracle Bone Characters},
+  author    = {{Renenjie}},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.0.0},
+  doi       = {10.5281/zenodo.24129382},
+  url       = {https://doi.org/10.5281/zenodo.24129382}
+}
+```
+
+| DOI | Resolves to | Use it for |
+| --- | ----------- | ---------- |
+| `10.5281/zenodo.24129382` | always the latest version | citing in the paper |
+| `10.5281/zenodo.24129383` | v1.0.0, frozen | reproducing a specific result |
+
+If you need to point at exactly the archived snapshot, replace the DOI with
+`10.5281/zenodo.24129383` and add `note = {Version v1.0.0}`.
+
+### Data source
+
+If you use this code, please also cite the dataset publication that provides the
+images and ground-truth graphs:
 
 ```bibtex
 @article{jiao2025gbedobc,
