@@ -5,8 +5,9 @@ type: software
 authors:
   - family-names: "Renenjie"
     given-names: ""
-    # TODO: replace with your full name, ORCID and affiliation before publishing
-repository-code: "https://github.com/<your-username>/<your-repo>"
+    email: "2503011022@stu.aynu.edu.cn"
+    # TODO: replace with your full name and ORCID before publishing
+repository-code: "https://github.com/Renenjie/obc-skeleton-graph"
 license: MIT
 keywords:
   - oracle bone characters

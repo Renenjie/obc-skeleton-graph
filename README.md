@@ -251,3 +251,8 @@ redistributed from a third-party dataset and remain subject to its terms; see
 ---
 
 ## 9. Contact
+
+Questions about the code or the paper: **2503011022@stu.aynu.edu.cn**
+
+Issues and pull requests are welcome via the
+[issue tracker](https://github.com/Renenjie/obc-skeleton-graph/issues).
