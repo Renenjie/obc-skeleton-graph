@@ -106,12 +106,27 @@ share the same file stems.
 | Scale | Input skeletons      | Ground-truth matrices | Notes                       |
 | ----- | -------------------- | --------------------- | --------------------------- |
 | 756   | `data/skeleton_756`  | `data/Matrix_756`     | 756 characters              |
-| 1512  | `data/skeleton_1512` | `data/Matrix_1512`    | 756 characters              |
+| 1512  | `data/skeleton_1512` | `data/Matrix_1512`    | 1512 characters             |
 | 3780  | `data/skeleton_3780` | `data/Matrix_3780`    | full set used in the paper  |
 
-The character images and the ground-truth graphs derive from a third-party  
-dataset. **If you use the data, you must also cite the original publication** —  
-see [NOTICE.md](NOTICE.md).
+### Provenance
+
+All 3,780 glyph images and their ground-truth graphs come from the
+**Graph-Based Evolutionary Dataset for Oracle Bone Characters (GBEDOBC)**:
+
+> Q. Jiao, J. Wu, Q. Liu, H. Zhang, Z. Zhang, B. Li, J. Xiong, G. Liu and Y. Liu,
+> "A graph-based evolutionary dataset for oracle bone characters from
+> inscriptions to modern Chinese scripts," *npj Heritage Science*, vol. 13,
+> no. 1, Art. no. 369, 2025.
+> DOI: [10.1038/s40494-025-01951-0](https://doi.org/10.1038/s40494-025-01951-0)
+
+- Dataset repository: <https://github.com/BrisksHan/GBEDOBC>
+- The glyph images in GBEDOBC are themselves taken from Wang et al.,
+  *PLoS ONE* 17, e0272974 (2022),
+  DOI: [10.1371/journal.pone.0272974](https://doi.org/10.1371/journal.pone.0272974)
+
+**If you use `data/`, you must cite the GBEDOBC paper in addition to ours** —
+see [NOTICE.md](NOTICE.md) for the full provenance chain and BibTeX entries.
 
 ---
 
@@ -233,9 +248,44 @@ budget disk space accordingly.
 
 ## 7. Citation
 
-If you use this code, please cite our paper (BibTeX to be added upon  
-publication) and the original dataset publication listed in  
-[NOTICE.md](NOTICE.md).
+If you use this code, please cite our paper (BibTeX to be added upon
+publication) **and** the dataset publication that provides the images and
+ground-truth graphs:
+
+```bibtex
+@article{jiao2025gbedobc,
+  title   = {A graph-based evolutionary dataset for oracle bone characters
+             from inscriptions to modern Chinese scripts},
+  author  = {Jiao, Qingju and Wu, Jingwen and Liu, Qi and Zhang, Han and
+             Zhang, Zhan and Li, Bang and Xiong, Jing and Liu, Guoying and
+             Liu, Yongge},
+  journal = {npj Heritage Science},
+  volume  = {13},
+  number  = {1},
+  pages   = {369},
+  year    = {2025},
+  doi     = {10.1038/s40494-025-01951-0}
+}
+```
+
+If you redistribute or publish results based on the glyph images themselves,
+please also cite their original source:
+
+```bibtex
+@article{wang2022oracle,
+  title   = {Study on the evolution of Chinese characters based on few-shot
+             learning: From oracle bone inscriptions to regular script},
+  author  = {Wang, M. and others},
+  journal = {PLoS ONE},
+  volume  = {17},
+  pages   = {e0272974},
+  year    = {2022},
+  doi     = {10.1371/journal.pone.0272974}
+}
+```
+
+A machine-readable form is provided in [CITATION.cff](CITATION.cff), and the
+full attribution statement is in [NOTICE.md](NOTICE.md).
 
 ---
 

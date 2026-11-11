@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the paper below."
+message: "If you use this code or data, please cite the paper below and the dataset publication it builds on."
 title: "A Circle Stroke-Driven Method for Graph Construction of Oracle Bone Characters"
 type: software
 authors:
@@ -15,4 +15,45 @@ keywords:
   - skeletonization
   - attributed graph
   - keypoint detection
+  - graph matching
+references:
+  - type: article
+    title: "A graph-based evolutionary dataset for oracle bone characters from inscriptions to modern Chinese scripts"
+    authors:
+      - family-names: "Jiao"
+        given-names: "Qingju"
+      - family-names: "Wu"
+        given-names: "Jingwen"
+      - family-names: "Liu"
+        given-names: "Qi"
+      - family-names: "Zhang"
+        given-names: "Han"
+      - family-names: "Zhang"
+        given-names: "Zhan"
+      - family-names: "Li"
+        given-names: "Bang"
+      - family-names: "Xiong"
+        given-names: "Jing"
+      - family-names: "Liu"
+        given-names: "Guoying"
+      - family-names: "Liu"
+        given-names: "Yongge"
+    journal: "npj Heritage Science"
+    volume: 13
+    issue: 1
+    start: 369
+    year: 2025
+    doi: "10.1038/s40494-025-01951-0"
+    notes: "Source of the 3780 glyph images and ground-truth adjacency matrices redistributed under data/ (GBEDOBC)."
+  - type: article
+    title: "Study on the evolution of Chinese characters based on few-shot learning: From oracle bone inscriptions to regular script"
+    authors:
+      - family-names: "Wang"
+        given-names: "M."
+    journal: "PLoS ONE"
+    volume: 17
+    start: e0272974
+    year: 2022
+    doi: "10.1371/journal.pone.0272974"
+    notes: "Original source of the glyph images, as stated in the GBEDOBC Readme."
 # TODO: fill in date-released once the paper is public

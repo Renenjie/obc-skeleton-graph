@@ -9,7 +9,7 @@
       "name": "Renenjie"
     }
   ],
-  "description": "Reference implementation, datasets, figures and tables for the paper \"A Circle Stroke-Driven Method for Graph Construction of Oracle Bone Characters\". The repository contains the proposed skeleton-to-graph pipeline (method A), re-implementations of five baselines (methods B-F), the ablation and parameter-sensitivity scripts, the input skeleton images, the ground-truth adjacency matrices and the resulting figures and tables. All scripts resolve paths relative to the repository root, so no absolute paths need to be configured. The source code is released under the MIT License. The character images, skeleton images and ground-truth graphs under data/ are redistributed from the Graph-Based Evolutionary Dataset for Oracle Bone Characters and remain subject to the terms of that dataset; if you use the data, please also cite Wang, M. et al., Study on the evolution of Chinese characters based on few-shot learning: From oracle bone inscriptions to regular script, PLoS ONE 17, e0272974 (2022).",
+  "description": "<p>Reference implementation, datasets, figures and tables for the paper \"A Circle Stroke-Driven Method for Graph Construction of Oracle Bone Characters\".</p><p>The repository contains the proposed skeleton-to-graph pipeline (method A), re-implementations of five baselines (methods B-F), the ablation and parameter-sensitivity scripts, the input skeleton images, the ground-truth adjacency matrices, and the resulting figures and tables. All scripts resolve paths relative to the repository root, so no absolute paths need to be configured.</p><p><strong>Third-party data.</strong> The 3,780 glyph images and their ground-truth adjacency matrices under <code>data/</code> are redistributed from the Graph-Based Evolutionary Dataset for Oracle Bone Characters (GBEDOBC), published as Q. Jiao et al., \"A graph-based evolutionary dataset for oracle bone characters from inscriptions to modern Chinese scripts\", <em>npj Heritage Science</em> 13(1):369, 2025, DOI 10.1038/s40494-025-01951-0, and remain subject to the terms of that dataset. The glyph images in GBEDOBC are in turn taken from M. Wang et al., \"Study on the evolution of Chinese characters based on few-shot learning: From oracle bone inscriptions to regular script\", <em>PLoS ONE</em> 17:e0272974, 2022, DOI 10.1371/journal.pone.0272974. If you use the data, please cite both of these publications in addition to this record. The MIT License applies to the source code only; no new rights are claimed over the character images or graphs.</p>",
   "keywords": [
     "oracle bone characters",
     "graph construction",
@@ -18,5 +18,20 @@
     "keypoint detection",
     "graph matching",
     "pattern recognition"
-  ]
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s40494-025-01951-0",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1371/journal.pone.0272974",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Data under data/ is redistributed from GBEDOBC (DOI 10.1038/s40494-025-01951-0) and is not covered by the MIT License. See NOTICE.md in the repository for the full provenance chain."
 }
