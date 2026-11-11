@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "A Circle Stroke-Driven Method for Graph Construction of Oracle Bone Characters"
+type: software
+authors:
+  - family-names: "Renenjie"
+    given-names: ""
+    # TODO: replace with your full name, ORCID and affiliation before publishing
+repository-code: "https://github.com/<your-username>/<your-repo>"
+license: MIT
+keywords:
+  - oracle bone characters
+  - graph construction
+  - skeletonization
+  - attributed graph
+  - keypoint detection
+# TODO: fill in date-released once the paper is public

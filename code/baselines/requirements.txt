@@ -1,0 +1,8 @@
+scikit-image==0.26.0
+scipy==1.17.1
+
+method_B → Zhang_method """Glyph graph isomorphism network for structure recognition of oracle bone inscription"""
+method_C → Arrivault_method """A Fuzzy Hierarchical Attributed Graph Approach for Handwritten Egyptian Hieroglyphs description and matching."""
+method_D → Tang_method  """Graph Feature Extraction Method in Chinese Character Recognition"""
+method_E → Stauffer_method """Graph-Based Keyword Spotting in Historical Handwritten Documents"""
+method_F → Sun_method """Graph-matching-based character recognition for Chinese seal images"""

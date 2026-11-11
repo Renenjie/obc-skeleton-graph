@@ -1,0 +1,21 @@
+# Normalise line endings across platforms
+* text=auto
+
+# Source
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.cff  text eol=lf
+*.csv  text eol=lf
+
+# Binary assets
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.bmp  binary
+*.tif  binary
+*.tiff binary
+*.xlsx binary
+*.xls  binary
+*.pdf  binary
+*.npy  binary
